@@ -1,0 +1,302 @@
+body{
+    background: #C3FBC5;
+    margin: 0;
+    overflow-x: hidden;
+}
+.wrapper{
+    position: relative;
+width: 1440px;
+margin: auto;
+min-height: 100vh;
+}
+.nav{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 20px 33px;
+gap: 10px;
+
+width: 1440px;
+height: 84px;
+
+border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.nav-home{
+    width: 57px;
+    height: 24px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    color: #000000;
+    
+    
+    
+}
+.nav-home-div{
+    padding: 0px 20px;
+}
+.nav-git{
+    width: 122px;
+height: 24px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+
+
+}
+.nav-git-div{
+    padding: 0px 20px;
+}
+.nav-about{
+    width: 94px;
+    
+height: 24px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #34E784;
+}
+.nav-about-div{
+    padding: 0px 20px;
+}
+.top-contaner{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+/* padding: 97px 110px; */
+gap: 70px;
+
+width: 1440px;
+height: 616.59px;
+}
+.text{
+    width: 749px;
+    height: 342px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+}
+.img-1{
+    width: 401px;
+    height: 422.59px;
+}
+.bottom-contaner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 91px 70px; */
+    gap: 60px;
+    
+    width: 1440px;
+    height: 843.37px;
+    
+    background: #FBFE70;
+    
+}
+.skill-div{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+/* width: 140px;
+height: 78px; */
+}
+.skill-text{
+    width: 120px;
+height: 58px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+.skill-div-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 128px;
+    
+    width: 1087px;
+    height: 523.37px;
+}
+.skill-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 58px;
+    
+    width: 331px;
+    height: 406px;
+}
+.skill-img{
+    width: 628px;
+height: 523.37px;
+}
+.html{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 50px;
+    
+    width: 245px;
+    height: 58px;
+}
+.html-text{
+    width: 95px;
+height: 38px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+letter-spacing: 0.05em;
+
+color: #000000;
+
+}
+.html-img{
+    width: 80px;
+height: 35px;
+
+}
+.css{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 50px;
+    
+    width: 210px;
+    height: 58px;
+}
+.css-text{
+    width: 60px;
+height: 38px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+.css-img{
+    width: 80px;
+    height: 35px;
+}
+.python{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 50px;
+    
+    width: 260px;
+    height: 58px;
+    
+
+}
+.python-text{
+    width: 110px;
+    height: 38px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+}
+.python-img{
+    width: 80px;
+height: 35px;
+
+}
+.figma{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 50px;
+    
+    width: 331px;
+    height: 58px;
+}
+.figma-text{
+    width: 91px;
+height: 38px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+letter-spacing: 0.05em;
+
+color: #000000;
+
+}
+.figma-img{
+    width: 170px;
+height: 35px;
+
+}
